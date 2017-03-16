@@ -23,7 +23,7 @@
     </dependencies>
 	</metadata>
 	<files>		
-		<file src="Xamarin.Bindings.Alerter/bin/Release/Xamarin.Bindings.Alerter.dll" target="lib\MonoAndroid" />
+		<file src="Xamarin.Bindings.Alerter/bin/Release/Xamarin.Bindings.Alerter.dll" target="lib/MonoAndroid" />
 	</files>
 </package>
 
