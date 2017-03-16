@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Bindings.Alerter</id>
+		<version>1.0.6</version>
+		<title>Xamarin.Bindings.Alerter</title>
+		<authors>Przemyslaw Raciborski [thefex] - Bindings Library, Copyright 2016 Tapadoo, Dublin - java library</authors>
+   		<projectUrl>https://github.com/thefex/Xamarin.Bindings.Alerter</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+      		Xamarin Bindings library for Alerter - https://github.com/Tapadoo/Alerter
+    	</description>
+		<tags>xamarin android</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="Mono.Android.Export" targetFramework="MonoAndroid" />
+		</frameworkAssemblies>
+		<dependencies>
+      <group targetFramework="monoandroid71">
+        <dependency id="Xamarin.Android.Support.v4" version="25.1.1"/>
+ 		<dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.1.1"/>
+    	<dependency id="Xamarin.Android.Support.Design" version="25.1.1" />
+      </group>
+    </dependencies>
+	</metadata>
+	<files>		
+		<file src="Xamarin.Bindings.Alerter/bin/Release/Xamarin.Bindings.Alerter.dll" target="lib\MonoAndroid" />
+	</files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+
